@@ -38,7 +38,7 @@ def detect(filename, cascade_file = "./lbpcascade_animeface.xml"):
                                      minSize = (24, 24))
 
     print("Detect {} faces".format(len(faces)))
-    if len(faces) >= 24:
+    if len(faces) >= 20:
         print("Pass !")
     else:
         print("Fail !")
