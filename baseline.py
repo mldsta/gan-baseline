@@ -2,7 +2,7 @@ import cv2
 import argparse
 
 '''
-def save_imgs(epoch):
+def save_imgs(generator):
     import matplotlib as plt
 
     r, c = 5, 5
