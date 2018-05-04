@@ -1,9 +1,10 @@
+import os
 import cv2
 import argparse
 
 '''
 def save_imgs(generator):
-    import matplotlib as plt
+    import matplotlib.pyplot as plt
 
     r, c = 5, 5
     noise = np.random.normal(0, 1, (r * c, 100))
